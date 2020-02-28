@@ -396,7 +396,7 @@ SASP_THEATRE	equ .8	; Set bit 3 to 0 for upper nibble is feather lcoation, set 1
 SASP_LIT	equ .0	; Set bit 0 to indicate lit
 SASP_LUNAR	equ .1	; Set bit 1 for lunar indication
 ; 
-Remaining bits in second aspect byte yet to be defined - use for other signalling systems	equ .    	; 
+; Remaining bits in second aspect byte yet to be defined - use for other signalling systems
 ; 
 ; 
 ; Parameter index numbers (readable by OPC_RQNPN, returned in OPC_PARAN)

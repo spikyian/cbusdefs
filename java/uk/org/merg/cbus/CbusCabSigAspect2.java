@@ -88,9 +88,9 @@ public enum CbusCabSigAspect2 {
 // Second Aspect byte
 // 
 	SASP_LIT(0),	//Set bit 0 to indicate lit
-	SASP_LUNAR(1),	//Set bit 1 for lunar indication
+	SASP_LUNAR(1);	//Set bit 1 for lunar indication
 // 
-	Remaining bits in second aspect byte yet to be defined - use for other signalling systems(    );	//
+// Remaining bits in second aspect byte yet to be defined - use for other signalling systems
 
 	private final int v;
 

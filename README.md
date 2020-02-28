@@ -4,10 +4,11 @@ This repo is for the control of MERG cbusdefs files. It allows a variety of lang
 The _generate.sh_ script is a bash that can be executed using "Git Bash" which is part of the git download (https://git-scm.com/downloads).
 
 The current _generate.sh_ script produces the following output files from the cbusdefs.csv:
-1.	cbusdefs.h
-2.	cbusdefs.inc
-3.	cbusdefs.pas
-4.	java/\*
+1.	cbusdefs.cs
+2.	cbusdefs.h
+3.	cbusdefs.inc
+4.	cbusdefs.pas
+5.  java/\*
 
 # New versions of cbusdefs
 MERG will occasionally update cbusdefs. This has historically be done as a zip file of named-versioned files such as cbusdefs8r.h, cbusdefs8r.inc, cbusdefs8r.pas. The ZIP has historically been put onto the MERG wiki (https://www.merg.org.uk/merg_wiki/doku.php?id=cbus:cbus-headers). Note: You must be a MERG member to access this age.
